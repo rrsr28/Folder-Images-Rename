@@ -1,6 +1,5 @@
 import os
 import glob
-import tkinter as tk
 from tkinter import filedialog
 
 directory_path = filedialog.askdirectory()
