@@ -3,10 +3,6 @@ import glob
 import tkinter as tk
 from tkinter import filedialog
 
-# Create a root Tk window and hide it
-root = tk.Tk()
-root.withdraw()
-
 directory_path = filedialog.askdirectory()
 
 image_files = glob.glob(os.path.join(directory_path, '*.jpg')) + glob.glob(os.path.join(directory_path, '*.jpeg')) + glob.glob(os.path.join(directory_path, '*.png')) + glob.glob(os.path.join(directory_path, '*.gif'))
