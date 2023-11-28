@@ -1,3 +1,5 @@
+# File renamer for images
+
 import os
 import glob
 from tkinter import filedialog
